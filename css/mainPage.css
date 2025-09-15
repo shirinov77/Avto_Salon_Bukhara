@@ -38,7 +38,7 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    perspective: 1200px;
+    perspective: 1100px;
     /* Enhanced 3D effect */
 }
 
@@ -63,10 +63,9 @@ body {
     height: 100%;
     object-fit: cover;
     z-index: 0;
-    transform: translateZ(-15px) scale(1.15);
-    /* Enhanced parallax */
     animation: zoomInOut 20s infinite ease-in-out;
 }
+
 
 /* Hero Content */
 .hero-content {
